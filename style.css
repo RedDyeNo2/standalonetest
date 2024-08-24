@@ -60,24 +60,49 @@ nav {
 }
 
 .frase-cringe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
   background-color: #e5e7eb;
   font-size: 36px;
   /* font-weight: bold; */
   font-style: italic;
+  color: #1f2937;
   flex: 1;
 }
 
 footer {
   background-color: #1f2937;
   text-align: center;
-  padding: 8px;
+  padding: 15px;
+  color: #e5e7eb;
 }
 
 .prefooter-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
+}
+
+.rounded-part {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  margin: 40px;
+  padding: 25px;
+  border-radius: 7px;
 }
 
 ul {
   display: flex;
   list-style: none;
+}
+.limit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px;
+  max-height: 100px;
+  flex: 1;
 }
